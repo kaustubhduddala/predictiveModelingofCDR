@@ -1,9 +1,12 @@
-# alzdetectionproject
+# Functional Predictive Modeling of CDR Based on Socioeconomic Factors and Neuroimaging Data
 
-This project is a culmination of my research in AI/ML over the past few months
+This project is a culmination of my research in AI/ML over the past few months, read the abstract below 
 
-To use it, copy the code into Google colab and follow the instructions in the comments to load the associated .csv file.
+`Cognitive decline is a growing concern in the aging population, necessitating the development of accurate predictive models to identify individuals at risk. This study presents an approach to predict Cognitive Decline Ratings (CDR) through the integration of socioeconomic factors and neuroimaging data, by using the Random Forest Regressor model. The model demonstrates significant potential in the early detection and management of cognitive health issues. The predictive model is built on a dataset that parameters including gender, hand preference (not included), age, education level, socioeconomic status (SES), Mini-Mental State Examination (MMSE) scores, Estimated Total Intracranial Volume (eTIV), normalized Whole Brain Volume (nWBV), and Atlas Scaling Factor (ASF). By incorporating such a diverse set of features, the model aims to unveil yet undiscovered patterns in cognitive decline factors and improve predictive accuracy. The introduction of SES as a variable is a noteworthy aspect of this study. The methodology leverages the Rubin et al. (1998) method for SES metric calculation, which accounts for income, education, and occupation, providing a standardized measure of an individual's socioeconomic background. The predictive model uses the Random Forest Regressor, which is a model well-suited for complex datasets with multiple variables. It produced prediction results with a Root Mean Squared Error (RMSE) of 0.1993 and an R-squared value of 0.6122. The RMSE indicates the model's average prediction error, while the R-squared value demonstrates the model's ability to explain the variance in CDR. These findings reflect a moderate level of predictive accuracy and provide a solid foundation for future research. The implications of this study extend to both the scientific and medical communities. The approach lays a foundation for further exploration in the field of cognitive health, enabling better assessment and early intervention in cognitive decline. By identifying individuals at higher risk and understanding the role of socioeconomic factors, healthcare providers can develop more personalized treatment plans and support systems, hopefully one day preventing the disease altogether.
+`
+
+To use it, copy the code into Google colab or click the link the the top right corner and follow the instructions in the comments to load the associated .csv file from this repo.
 
 Furthur instruction is in the comments in the code itself.
 
-Feel free to build on this project
+Feel free to build on this project!
